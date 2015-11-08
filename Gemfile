@@ -43,3 +43,8 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
+group :development do
+  gem 'pry-rails'
+  gem 'pry-coolline'
+  end
+
