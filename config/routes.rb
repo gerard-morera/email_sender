@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  root to: 'emails#index'
-  resources :emails, only: [:index, :new, :create]
+  root to: 'registers#index'
+  resources :registers, only: [:index, :new, :create]
 end

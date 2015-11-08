@@ -1,0 +1,7 @@
+<%= form_tag '/registers' do %>
+  <%= label_tag 'name' %>
+  <%= text_field_tag 'name', 'Your name' %>
+  <%= label_tag 'email'%>
+  <%= email_field_tag 'email', 'email@example.com' %>
+  <%= submit_tag 'submit' %>
+<% end %>
